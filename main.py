@@ -120,8 +120,8 @@ class Kashir:
                 discount = "8%"
                 print(f"selamat anda mendapatkan diskon {discount}, sehingga Total belanja anda menjadi Rp.{total_belanaja}")
             elif sum(total_transaksi) > 500_000:
-                total_belanaja = sum(total_transaksi) * 0.92
-                discount = "8%"
+                total_belanaja = sum(total_transaksi) * 0.90
+                discount = "10%"
                 print(f"selamat anda mendapatkan diskon {discount}, sehingga Total belanja anda menjadi Rp.{total_belanaja}")
             else:
                 print(f"Total belanja anda adalah Rp.{sum(total_transaksi)}")
